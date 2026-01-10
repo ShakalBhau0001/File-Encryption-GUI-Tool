@@ -13,7 +13,6 @@ File-Encryption-GUI-Tool/
 │
 ├── file_encryption.py       # Main GUI application
 └── README.md                # Project documentation
-
 ```
 
 ---
@@ -159,8 +158,7 @@ image and audio steganography with file encryption support, refer to:
 ## ⚠️ Disclaimer
 
 This project is for **educational and research purposes only**.
-It is not designed to provide real-world secure communication. 
-Steganography alone does not guarantee secrecy.
+It is not designed to provide real-world secure file communication.
 
 ---
 
