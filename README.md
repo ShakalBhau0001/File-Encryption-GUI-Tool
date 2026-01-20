@@ -139,7 +139,6 @@ python file_encryption.py
 - Image capacity calculator
 - Progress bar for large files
 - Dark mode UI
-- CLI version for automation
 
 ---
 
