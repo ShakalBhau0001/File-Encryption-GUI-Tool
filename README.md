@@ -168,3 +168,9 @@ It is not designed to provide real-world secure file communication.
 > **GitHub: [ShakalBhau0001](https://github.com/ShakalBhau0001)**
 
 ---
+
+## ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub!
+
+---
