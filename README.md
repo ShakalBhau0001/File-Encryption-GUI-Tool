@@ -11,8 +11,10 @@ This project uses **Fernet symmetric encryption**, **PBKDF2-HMAC key derivation*
 ```bash
 File-Encryption-GUI-Tool/
 │
-├── file_encryption.py       # Main GUI application
-└── README.md                # Project documentation
+├── assets/                    # Screenshots
+├── main.py                    # Main GUI application
+├── requirements.txt           # Project dependencies
+└── README.md                  # Project documentation
 ```
 
 ---
@@ -56,17 +58,6 @@ File-Encryption-GUI-Tool/
 | **base64 / os**                        | Binary & file handling      |
 
 ---
-## 📌 Requirements
-
-Make sure you install required dependencies:
-
-```bash
-pip install cryptography 
-```
-
-Standard libraries like `secrets`, `tkinter`, `base64`, and `struct` are already included with Python.
-
----
 
 ## ▶️ How to Run
 
@@ -82,10 +73,22 @@ git clone https://github.com/ShakalBhau0001/File-Encryption-GUI-Tool.git
 cd File-Encryption-GUI-Tool
 ```
 
-**3. Run the GUI:**
+**3. Install Dependencies**
 
 ```bash
-python file_encryption.py
+pip install -r requirements.txt
+```
+
+**OR**
+
+```bash
+pip install cryptography
+```
+
+**4. Run the GUI:**
+
+```bash
+python main.py
 ```
 
 ---
@@ -150,17 +153,33 @@ This repository focuses on a specific steganography technique and is designed
 For a **more advanced and combined implementation** that includes
 image and audio steganography with file encryption support, refer to:
 
- 🔗 **[StegaVault-GUI](https://github.com/ShakalBhau0001/StegaVault-GUI)**
+ > 🔗 **[StegaVault-GUI](https://github.com/ShakalBhau0001/StegaVault-GUI)**
 
 ---
 
 ## ⚠️ Disclaimer
 
-This project is for **educational and research purposes only**.
-It is not designed to provide real-world secure file communication.
+> This project is for **educational and research purposes only**.
+
+> It is not designed to provide real-world secure file communication.
 
 ---
 
+## 📸 Preview
+
+### 1. Main UI
+
+![Rich CLI Preview](assets/FEGT-1.png)
+
+### 2. Encryption
+
+![Rich CLI Preview](assets/FEGT-2.png)
+
+### 3. Decryption
+
+![Rich CLI Preview](assets/FEGT-3.png)
+
+---
 ## 🪪 Author
 
 > **Creator: Shakal Bhau**
